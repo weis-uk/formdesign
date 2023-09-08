@@ -1,6 +1,6 @@
  form.wufoo {
    font-family: poppins, sans-serif; }
-   
+ .wufoo .info h2{font-size:160%;font-family:inherit;color:red}  
    
 /* font-style: normal;
  font-weight: 100; */
