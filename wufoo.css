@@ -19,6 +19,9 @@ CSS rules into "custom.css".
 
 
 /* Backgrounds */
+#container, html.embed {
+    background-color: transparent;
+}
 html{background-image:none;background-color:none}
 #logo{background-image:none;background-color:none}
 #container{background:none}
