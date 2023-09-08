@@ -30,7 +30,8 @@ html{background-image:none;background-color:none}
 .wufoo .instruct{background-color:#F5F5F5}
 
 /* Borders */
-
+form.wufoo {
+  margin-left: 0px;
 
 /* Typography */
  form.wufoo {
