@@ -1,8 +1,13 @@
+/* Backgrounds */
+#container, html.embed {
+    background-color: transparent;
+}
+
 /* Font */
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 </style>
-font-family: 'Poppins', sans-serif;
+font-family: 'Times', serif;
 
 .wufoo .info h2 {
     font-size: 160%;
@@ -53,11 +58,5 @@ font-family: 'Poppins', sans-serif;
     font-size: 100%;
 }
 
-/* Backgrounds */
-html{background-image:none;background-color:#99cc00}
-#logo{background-image:none;background-color:#669900}
-#container{background:#FFFFFF}
-.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
-.wufoo .focused{background:#FFF7C0}
-.wufoo .instruct{background-color:#F5F5F5}
+
 
