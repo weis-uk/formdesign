@@ -1,52 +1,328 @@
-/* - - - - - - - - - - - - - - - - - - - - -
-
- Title : Example Custom CSS : DinoMaster!
- URL : http://wufoo.com
-
- Last Updated : April 1, 2011
-
-- - - - - - - - - - - - - - - - - - - - - 
-
-INSTRUCTIONS
-1. Copy / Paste all or portions of these
-CSS rules into "custom.css".
-
-2. Experiment and play.
-
-- - - - - - - - - - - - - - - - - - - - - */
-
-/* - - - Default - - - */
-
-
-/* Backgrounds */
-#container, html.embed {
-    background-color: transparent;
+.wufoo caption, .wufoo label.desc {
+	font-size: 16px;
+  font-weight: bold;
+  color: #384047;
+  text-align: center;
+  margin-bottom: 20px;
 }
-html{background-image:none;background-color:none}
-#logo{background-image:none;background-color:none}
-#container{background:none}
-.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
-.wufoo .focused{background:#FFF7C0}
-.wufoo .instruct{background-color:#F5F5F5}
 
-/* Borders */
+/* ----- Backgrounds ----- */
+#container,
+html.embed{
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+}
 form.wufoo {
-  margin-left: -50px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wufoo .info { margin: 0; padding: 0; border-bottom:none; }
+.wufoo li { margin-bottom: 40px; padding: 0; }
 
-/* Typography */
- form.wufoo {
-   font-family: poppins, sans-serif; }
+form li.buttons input { margin-right: 0; }
 
-/* Buttons */
-form.wufoo input[type=submit] {
-background-color: #3998F8;
-color: white;
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-transition: .5s ease-in-out; }
+.wufoo li.focused{ background-color:transparent; }
+.wufoo .info, .wufoo .paging-context{ border-bottom: none; }
+.wufoo .section h3, .wufoo .captcha, #payment .paging-context{ border-top: none; }
+.wufoo input.text, .wufoo input.search, .wufoo textarea.textarea { background: transparent; padding: 15px; }
+.wufoo input.text, .wufoo textarea.textarea{
+  border: none !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+.fixed .info { border-bottom:none; }
+.wufoo li.section.scrollText{ border-color:#dedede; }
 
-form.wufoo input[type=submit]:hover {
-background-color: #f3b221; 
+/* ----- Typography ----- */
+.wufoo .info h2, .wufoo .info div { display: none; }
+.wufoo .section h3{
+  font-size:110%;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+  font-style:normal;
+  font-weight:normal;
+  color:#4c5760;
+}
+.wufoo .section div{
+  font-size:85%;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+  font-style:normal;
+  font-weight:normal;
+  color:#4c5760;
+}
+.wufoo label.desc, .wufoo legend.desc{
+  font-size: 14px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+  font-style:normal;
+  font-weight:bold;
+  color:#4c5760;
+}
+.wufoo label.choice{
+  font-size:100%;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+  font-style:normal;
+  font-weight:normal;
+  color:#4c5760;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+  font-style:normal;
+  font-weight:normal;
+  color:#4c5760;
+  font-size: 16px;
+}
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{ color:#4c5760; }
+.wufoo .instruct small{
+  font-size:80%;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+  font-style:normal;
+  font-weight:normal;
+  color:#4c5760;
+}
+.altInstruct small, li.leftHalf small, li.rightHalf small,
+li.leftThird small, li.middleThird small, li.rightThird small,
+.iphone small{ color:#4c5760 !important; }
+
+
+/* ----- Highlight Styles ----- */
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc,
+.wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label,
+.safari .wufoo li.focused input.file{ color:#4c5760; }
+
+.wufoo li input,
+.wufoo li textarea {
+  font-size: 16px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.wufoo li.focused input,
+.wufoo li.focused textarea { background-color:transparent; outline: none; }
+.wufoo li.buttons { padding: 0; margin: 0; }
+.wufoo li.buttons input[type="submit"] {
+  padding: 16px 34px 17px 34px;
+  background-color:transparent;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+}
+.wufoo li.buttons input[type="submit"]:hover,
+.wufoo li.buttons input[type="submit"]:active,
+.wufoo li.buttons input[type="submit"]:focus {
+  background-color:transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+html.ff #nextPageButton, html.ff #saveForm { padding: 19px 34px 16px; }
+
+#nextPageButton, #saveForm { float: right; }
+#previousPageButton { float: left; }
+
+button.link {
+  padding: 16px 34px 17px 34px;
+  background-color:transparent;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+}
+button.link:hover,
+button.link:active,
+button.link:focus{
+  background-color:transparent;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+}
+
+.confirm h2{ font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important; color:#4c5760; padding-top: 0px !important; }
+.confirm h2 a.button {
+  display: block;
+  width: 140px;
+  margin: 30px auto 0 auto;
+  padding: 16px 34px 17px 34px;
+  background-color:transparent;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+}
+a.powertiny b, a.powertiny em{ color:#4c5760 !important; }
+.embed a.powertiny b, .embed a.powertiny em{ color:#4c5760 !important; }
+
+.wufoo input, .wufoo textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+.wufoo .field.select.medium {
+  position: relative;
+  left: 1px;
+}
+
+.wufoo .field.radio {
+  background-color:transparent;
+}
+
+.wufoo .field.radio:checked {
+  background-color:transparent;
+}
+.wufoo .field.radio:checked:before {
+  content: "\00d7";
+  display: block;
+  position: relative;
+  top: -3px;
+  left: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#errorLi {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none !important;
+}
+
+form li.error {
+  background-color: transparent !important;
+}
+
+/*.wufoo select.field.select.medium {
+  opacity: 0.01;
+  position: relative;
+}
+.wufoo select.field.select.medium:before {
+  content: "Select a state";
+  display: block;
+  width: 100%;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+
+@media screen and (max-width: 767px) {
+  .wufoo input.text, .wufoo textarea.textarea {
+    width: 100% !important;
+  }
+  .wufoo .field.text.fn, .wufoo .field.text.ln {
+    width: 40% !important;
+  }
+}
+
+span.symbol {
+  line-height: 48px !important;
+}
+#cal25 {
+  margin-top: 13px !important;
+}
+
+@media screen and (max-width: 520px) {
+
+  #nextPageButton, #saveForm { margin-bottom: 15px; }
+  #nextPageButton, #saveForm, #previousPageButton {
+    display: block; 
+    width: 100%;
+    float: none;
+  }
+  
+}
+
+#wufooFormme3ji9m1xm4m71 .wufoo label.desc { display: none !important; }
+#wufooFormme3ji9m1xm4m71 .wufoo input.text { margin-top: 30px !important; }
+#wufooFormme3ji9m1xm4m71 .wufoo li.button > div { text-align: center !important; }
+#wufooFormme3ji9m1xm4m71 #saveForm { float: none !important; }
+
+
+.wufoo table {
+	border-color: transparent
+	border-collapse: collapse
+}
+
+.likert {
+	margin-bottom: 5px
+}
+
+.likert th, .likert td {
+	border-color: #EDEFF0
+}
+
+.likert thead td, .likert thead th {
+	background-color: transparent
+	color: #798B8E
+}
+
+.likert td {
+	border-left: none
+}
+
+.likert tbody tr.alt td, .likert tbody tr.alt th {
+	background-color: transparent
+}
+
+.likert tbody th label {
+	color: #596568
+}
+
+.likert tbody th {
+	padding: 15px 10px
+}
+
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label {
+	background-color: transparent
+}
+
+.likert tbody tr:hover td {
+	border-left: none
+}
+
+.wufoo input.text, .wufoo textarea.textarea {
+    background: transparent;
+    border: 2px solid #e8ebed;
+    border-radius: 5px;
+    color: #657380;
+    font-size: 14px;
+    padding: 11px 2%;
+}
+
+.wufoo textarea:focus, .wufoo input:focus, .wufoo select.select:focus {
+    outline: 0;
+    background: transparent;
+    border-color: #d4d9dd;
+}
+
+.wufoo textarea.textarea, .wufoo input.text.large {
+    min-width: 95%;
+    max-width: 95%;
+}
