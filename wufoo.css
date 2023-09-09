@@ -8,7 +8,7 @@
 form.wufoo input[type=submit] {
 background-color: #3998F8;
 color: white;
-padding: 14px 10px;
+padding: 6px 14px;
 margin: 8px 0;
 border: none;
 border-radius: 4px;
@@ -24,12 +24,12 @@ background-color: #f3b221; }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 </style>
 .wufoo {font-size: 16px}
-.wufoo .info h2{font-size:2em;font-family:Poppins;color:red}
-.wufoo .info div{font-size:1em;font-family:Poppins;color:#440000}
-.wufoo .section h3{font-size:1.3em;font-family:Poppins;background:#FFFFFF;color:#000000}
-.wufoo .section div{font-size:1em;font-family:Poppins;color:#440000}
-.wufoo label.desc, .wufoo legend.desc{font-size:1em;font-family:Poppins;color:#444444}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Poppins;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:1em;font-family:Poppins;color:#333333}
-.wufoo label.choice{color:#444444}
-.wufoo .instruct{font-size:0.8em;font-family:Poppins;color:#444444
+.wufoo .info h2{font-size:2em !important;font-family:Poppins !important;color:red !important}
+.wufoo .info div{font-size:1em !important;font-family:Poppins !important;color:#440000 !important}
+.wufoo .section h3{font-size:1.3em !important;font-family:Poppins !important;background:#FFFFFF !important;color:#000000 !important}
+.wufoo .section div{font-size:1em !important;font-family:Poppins !important;color:#440000 !important}
+.wufoo label.desc, .wufoo legend.desc{font-size:1em !important;font-family:Poppins !important;color:#444444 !important}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Poppins !important;color:#444444 !important}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:1em;font-family:Poppins !important;color:#333333 !important}
+.wufoo label.choice{color:#444444 !important}
+.wufoo .instruct{font-size:0.8em;font-family:Poppins !important;color:#444444 !important}
