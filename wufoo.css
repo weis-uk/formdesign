@@ -47,28 +47,28 @@ form li.buttons input { margin-right: 0; }
 .wufoo .info h2, .wufoo .info div { display: none; }
 .wufoo .section h3{
   font-size:110%;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
   font-style:normal;
   font-weight:normal;
   color:#4c5760;
 }
 .wufoo .section div{
   font-size:85%;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
   font-style:normal;
   font-weight:normal;
   color:#4c5760;
 }
 .wufoo label.desc, .wufoo legend.desc{
   font-size: 14px;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
   font-style:normal;
   font-weight:bold;
   color:#4c5760;
 }
 .wufoo label.choice{
   font-size:100%;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
   font-style:normal;
   font-weight:normal;
   color:#4c5760;
@@ -82,7 +82,7 @@ form li.buttons input { margin-right: 0; }
 .wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{ color:#4c5760; }
 .wufoo .instruct small{
   font-size:80%;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
   font-style:normal;
   font-weight:normal;
   color:#4c5760;
@@ -100,7 +100,7 @@ li.leftThird small, li.middleThird small, li.rightThird small,
 .wufoo li input,
 .wufoo li textarea {
   font-size: 16px;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -o-border-radius: 3px;
@@ -121,7 +121,7 @@ li.leftThird small, li.middleThird small, li.rightThird small,
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
 }
 .wufoo li.buttons input[type="submit"]:hover,
 .wufoo li.buttons input[type="submit"]:active,
@@ -148,7 +148,7 @@ button.link {
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
 }
 button.link:hover,
 button.link:active,
@@ -159,7 +159,7 @@ button.link:focus{
   color: #fff;
 }
 
-.confirm h2{   font-family: Poppins, sans-serif !important; color:#4c5760; padding-top: 0px !important; }
+.confirm h2{ font-family: Poppins, Helvetica, Arial, sans-serif !important; color:#4c5760; padding-top: 0px !important; }
 .confirm h2 a.button {
   display: block;
   width: 140px;
@@ -175,7 +175,7 @@ button.link:focus{
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  font-family: Poppins, sans-serif !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
 }
 a.powertiny b, a.powertiny em{ color:#4c5760 !important; }
 .embed a.powertiny b, .embed a.powertiny em{ color:#4c5760 !important; }
