@@ -21,20 +21,20 @@ background-color: #f3b221; }
 
 /* Font - doesn't work! */
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins, Arial, serif&display=swap');
 </style>
 .body,.wufoo
 {
-	font-family:Poppins !important;
+	font-family:Poppins, Arial, serif !important;
     font-size: 16px !important;
 }
 
-.wufoo .info h2{font-size:2em !important;font-family:Poppins !important;color:red !important}
-.wufoo .info div{font-size:1em !important;font-family:Poppins !important;color:#440000 !important}
-.wufoo .section h3{font-size:1.3em !important;font-family:Poppins !important;background:#FFFFFF !important;color:#000000 !important}
-.wufoo .section div{font-size:1em !important;font-family:Poppins !important;color:#440000 !important}
-.wufoo label.desc, .wufoo legend.desc{font-size:1em !important;font-family:Poppins !important;color:#444444 !important}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Poppins !important;color:#444444 !important}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:1em;font-family:Poppins !important;color:#333333 !important}
+.wufoo .info h2{font-size:2em !important;font-family:Poppins, Arial, serif !important;color:red !important}
+.wufoo .info div{font-size:1em !important;font-family:Poppins, Arial, serif !important;color:#440000 !important}
+.wufoo .section h3{font-size:1.3em !important;font-family:Poppins, Arial, serif !important;background:#FFFFFF !important;color:#000000 !important}
+.wufoo .section div{font-size:1em !important;font-family:Poppins, Arial, serif !important;color:#440000 !important}
+.wufoo label.desc, .wufoo legend.desc{font-size:1em !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:1em;font-family:Poppins, Arial, serif !important;color:#333333 !important}
 .wufoo label.choice{color:#444444 !important}
-.wufoo .instruct{font-size:0.8em;font-family:Poppins !important;color:#444444 !important}
+.wufoo .instruct{font-size:0.8em;font-family:Poppins, Arial, serif !important;color:#444444 !important}
