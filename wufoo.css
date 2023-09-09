@@ -1,3 +1,7 @@
+/* Logo */
+#logo a {background-image:url('https://weis-uk.github.io/formdesign/weis-logo.png'); min-height:0; height:117px}
+
+
 /* Backgrounds */
 #container, html.embed {
     background-color: transparent;
