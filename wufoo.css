@@ -19,7 +19,8 @@ form.wufoo input[type=submit]:hover {
 background-color: #f3b221; }
 
 
-/* Font - doesn't work! */
+/* Font - not sure if it works due to clashing CSS */
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins, Arial, serif&display=swap');
 </style>
@@ -31,7 +32,7 @@ background-color: #f3b221; }
 
 .wufoo .info h2{font-size:26pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo .info div{font-size:14pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
-.wufoo .section h3{font-size:20pt !important;font-family:Poppins, Arial, serif !important;background:#FFFFFF !important;color:#000000 !important}
+.wufoo .section h3{font-size:20pt !important;font-family:Poppins, Arial, serif !important;background:transparent !important;color:#000000 !important}
 .wufoo .section div{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo label.desc, .wufoo legend.desc{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-size:11pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
