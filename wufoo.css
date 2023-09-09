@@ -29,8 +29,8 @@ background-color: #f3b221; }
     font-size: 16px !important;
 }
 
-.wufoo .info h2{font-size:32pt !important;font-family:Poppins, Arial, serif !important;color:red !important}
-.wufoo .info div{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#440000 !important}
+.wufoo .info h2{font-size:32pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo .info div{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo .section h3{font-size:20pt !important;font-family:Poppins, Arial, serif !important;background:#FFFFFF !important;color:#000000 !important}
 .wufoo .section div{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#440000 !important}
 .wufoo label.desc, .wufoo legend.desc{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
