@@ -29,12 +29,12 @@ background-color: #f3b221; }
     font-size: 16px !important;
 }
 
-.wufoo .info h2{font-size:32pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
-.wufoo .info div{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo .info h2{font-size:26pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo .info div{font-size:14pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo .section h3{font-size:20pt !important;font-family:Poppins, Arial, serif !important;background:#FFFFFF !important;color:#000000 !important}
-.wufoo .section div{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
-.wufoo label.desc, .wufoo legend.desc{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-size:12pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:16pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo .section div{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo label.desc, .wufoo legend.desc{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-size:11pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:14pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo label.choice{color:#444444 !important}
-.wufoo .instruct{font-size:13pt;font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo .instruct{font-size:12pt;font-family:Poppins, Arial, serif !important;color:#444444 !important}
