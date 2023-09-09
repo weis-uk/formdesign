@@ -23,7 +23,12 @@ background-color: #f3b221; }
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 </style>
-.wufoo {font-size: 16px}
+.body,.wufoo
+{
+	font-family:Poppins !important;
+    font-size: 16px !important;
+}
+
 .wufoo .info h2{font-size:2em !important;font-family:Poppins !important;color:red !important}
 .wufoo .info div{font-size:1em !important;font-family:Poppins !important;color:#440000 !important}
 .wufoo .section h3{font-size:1.3em !important;font-family:Poppins !important;background:#FFFFFF !important;color:#000000 !important}
