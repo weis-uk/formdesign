@@ -23,12 +23,13 @@ background-color: #f3b221; }
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 </style>
-.wufoo .info h2{font-size:200%;font-family:Poppins;color:red}
-.wufoo .info div{font-size:100%;font-family:Poppins;color:#440000}
-.wufoo .section h3{font-size:130%;font-family:Poppins;background:#FFFFFF;color:#000000}
-.wufoo .section div{font-size:100%;font-family:Poppins;color:#440000}
-.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:Poppins;color:#444444}
+.wufoo {font-size: 16px}
+.wufoo .info h2{font-size:2em;font-family:Poppins;color:red}
+.wufoo .info div{font-size:1em;font-family:Poppins;color:#440000}
+.wufoo .section h3{font-size:1.3em;font-family:Poppins;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:1em;font-family:Poppins;color:#440000}
+.wufoo label.desc, .wufoo legend.desc{font-size:1em;font-family:Poppins;color:#444444}
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Poppins;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:Poppins;color:#333333}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:1em;font-family:Poppins;color:#333333}
 .wufoo label.choice{color:#444444}
-.wufoo .instruct{font-size:80%;font-family:Poppins;color:#444444
+.wufoo .instruct{font-size:0.8em;font-family:Poppins;color:#444444
