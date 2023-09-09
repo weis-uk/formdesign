@@ -4,6 +4,55 @@
 </style>
 font-family: 'Poppins', sans-serif;
 
+.wufoo .info h2 {
+    font-size: 160%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.wufoo .info div {
+    font-size: 95%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #444444;
+}
+.wufoo .section h3 {
+    font-size: 110%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.wufoo .section div {
+    font-size: 85%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #444444;
+}
+.wufoo label.desc,  .wufoo legend.desc {
+    font-size: 95%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    color: #444444;
+}
+.wufoo label.choice {
+    font-size: 100%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #444444;
+}
+.wufoo input.text,  .wufoo textarea.textarea,  .wufoo input.file,  .wufoo select.select {
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    font-size: 100%;
+}
+
 form.wufoo {
     margin-top: 0;
     background-color: transparent;
@@ -15,3 +64,4 @@ form.wufoo {
     -moz-border-radius: 0px;
     margin-bottom: 0px
 }
+
