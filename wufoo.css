@@ -4,10 +4,14 @@
 </style>
 font-family: 'Poppins', sans-serif;
 
-/* Backgrounds */
-html{background-image:none;background-color:transparent}
-#logo{background-image:none;background-color:transparent}
-#container{background:transparent}
-.wufoo input.text, .wufoo textarea.textarea{background:transparent url(/images/fieldbg.gif) repeat-x top}
-.wufoo .focused{background:#FFF7C0}
-.wufoo .instruct{background-color:#F5F5F5}
+form.wufoo {
+    margin-top: 0;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0 auto;
+    background: transparent;
+    border: 0 ;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 0px
+}
