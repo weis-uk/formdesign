@@ -1,26 +1,40 @@
 /* Logo */
-#logo a {background-image:url('https://weis-uk.github.io/formdesign/weis-logo.png'); min-height:0; height:80px}
+
+#logo a {
+	background-image:url('https://weis-uk.github.io/formdesign/weis-logo.png');
+	min-height:0;
+	height:80px
+}
 
 
 /* Backgrounds */
+
 #container, html.embed {
-    background-color: transparent;
+	background-color: transparent;
 }
+
 
 /* Buttons */
 
 form.wufoo input[type=submit] {
-background-color: #3998F8;
-color: white;
-padding: 6px 14px;
-margin: 8px 0;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-transition: .5s ease-in-out; }
+	background-color: #3998F8;
+	color: white;
+	padding: 6px 14px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .5s ease-in-out; }
 
 form.wufoo input[type=submit]:hover {
-background-color: #f3b221; }
+	background-color: #f3b221; }
+
+
+/* Hide Code Block warnings to allow proper control of block size in edit mode */
+
+html.squarespace-damask .sqs-blockStatus, .sqs-block .removed-script {
+	  display: none !important;
+}
 
 
 /* Font - not sure if it works due to clashing CSS */
@@ -28,10 +42,10 @@ background-color: #f3b221; }
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins, Arial, serif&display=swap');
 </style>
-.body,.wufoo
-{
+
+.body,.wufoo {
 	font-family:Poppins, Arial, serif !important;
-    font-size: 16px !important;
+	font-size: 16px !important;
 }
 
 .wufoo .info h2{font-size:26pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
