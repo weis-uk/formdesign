@@ -30,13 +30,6 @@ form.wufoo input[type=submit]:hover {
 	background-color: #f3b221; }
 
 
-/* Hide Code Block warnings to allow proper control of block size in edit mode */
-
-html.squarespace-damask .sqs-blockStatus, .sqs-block .removed-script {
-	  display: none !important;
-}
-
-
 /* Font - not sure if it works due to clashing CSS */
 
 <style>
