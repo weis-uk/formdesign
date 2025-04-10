@@ -1,0 +1,52 @@
+/* Logo */
+
+#logo a {
+	background-image:url('https://weis-uk.github.io/formdesign/weis-logo.png');
+	min-height:0;
+	height:80px
+}
+
+
+/* Backgrounds */
+
+#container, html.embed {
+	background-color: transparent;
+}
+
+
+/* Buttons */
+
+form.wufoo input[type=submit] {
+	background-color: #3998F8;
+	color: white;
+	padding: 6px 14px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .5s ease-in-out; }
+
+form.wufoo input[type=submit]:hover {
+	background-color: #f3b221; }
+
+
+/* Font - not sure if it works due to clashing CSS */
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins, Arial, serif&display=swap');
+</style>
+
+.body,.wufoo {
+	font-family:Poppins, Arial, serif !important;
+	font-size: 16px !important;
+}
+
+.wufoo .info h2{font-size:26pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo .info div{font-size:14pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo .section h3{font-size:20pt !important;font-family:Poppins, Arial, serif !important;background:transparent !important;color:#000000 !important}
+.wufoo .section div{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo label.desc, .wufoo legend.desc{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-size:11pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:14pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+.wufoo label.choice{color:#444444 !important}
+.wufoo .instruct{font-size:12pt;font-family:Poppins, Arial, serif !important;color:#444444 !important}
