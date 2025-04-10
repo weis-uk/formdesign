@@ -41,8 +41,11 @@ form.wufoo input[type=submit]:hover {
 	font-size: 16px !important;
 }
 
+.wufoo .info{display:none}
+/*
 .wufoo .info h2{font-size:26pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo .info div{font-size:14pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
+*/
 .wufoo .section h3{font-size:20pt !important;font-family:Poppins, Arial, serif !important;background:transparent !important;color:#000000 !important}
 .wufoo .section div{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#000000 !important}
 .wufoo label.desc, .wufoo legend.desc{font-size:13pt !important;font-family:Poppins, Arial, serif !important;color:#444444 !important}
